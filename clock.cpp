@@ -802,36 +802,14 @@ public:
 };
 int main()
 {
-    // int d1,d2,d3,d4;
-    // cin>>d1>>d2>>d3>>d4;
-    // if (d1>2 || d2>9 || d3>6 || d4>9 || d1<0 || d2<0 || d3<0 || d4<0)
-    // {
-    // cout<<"invalid entries enter again ";cin>>d1>>d2>>d3>>d4;
-    // }
-    // clock c(d1,d2,d3,d4);
+     int d1,d2,d3,d4;
+     cin>>d1>>d2>>d3>>d4;
+     if (d1>2 || d2>9 || d3>6 || d4>9 || d1<0 || d2<0 || d3<0 || d4<0)
+     {
+     cout<<"invalid entries enter again ";cin>>d1>>d2>>d3>>d4;
+     }
+     clock c(d1,d2,d3,d4);
 
-    Clock c(0,3,4,6); 
     c.print();
-   //  c.addmin(120);
-    // c.addhour(28);
-  //   c.hourincrement();
-  //   c.reset();
-    // c.hourdecrement();
-    cout<<endl<<endl;
-     c.submin(240);
-   //  c.subhour(12);
-//    c.conversion();
-   c.print();
-//    digit d1;d1.setnum(1);
-//    d1.print();cout<<endl<<endl;
-    // d1.reset();d1.setnum(8);d1.print();
-    // digit d2;d2.setnum(2);d2.print();cout<<endl<<endl;
-    // digit d3;d3.setnum(3);d3.print();cout<<endl<<endl;
-    // digit d4;d4.setnum(4);d4.print();cout<<endl<<endl;
-    // digit d5;d5.setnum(5);d5.print();cout<<endl<<endl;
-    // digit d6;d6.setnum(6);d6.print();cout<<endl<<endl;
-    // digit d7;d7.setnum(7);d7.print();cout<<endl<<endl;
-    // digit d8;d8.setnum(8);d8.print();cout<<endl<<endl;
-    // digit d9;d9.setnum(9);d9.print();cout<<endl<<endl;
-    // digit d0;d0.setnum(0);d0.print();cout<<endl<<endl;
+   
 }
